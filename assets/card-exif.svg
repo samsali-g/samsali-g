@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 170" width="320" height="170" role="img" aria-label="ExifStudio">
+  <defs>
+    <linearGradient id="exifBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071318"/>
+      <stop offset="100%" stop-color="#0D1F28"/>
+    </linearGradient>
+    <linearGradient id="exifStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="316" height="166" rx="14" fill="url(#exifBg)" stroke="url(#exifStroke)" stroke-width="1.8"/>
+
+  <!-- Animated Shutter Aperture Icon -->
+  <g transform="translate(272, 42)">
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#00F5D4" stroke-width="1.5" stroke-dasharray="10 5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <polygon points="0,-13 11.2,-6.5 11.2,6.5 0,13 -11.2,6.5 -11.2,-6.5" fill="none" stroke="#38BDF8" stroke-width="1.6">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="0" cy="0" r="4" fill="#00F5D4">
+      <animate attributeName="r" values="3;5.5;3" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <rect x="20" y="22" width="118" height="22" rx="11" fill="#062C30" stroke="#00F5D4" stroke-width="0.9" stroke-opacity="0.6"/>
+  <text x="31" y="37" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" font-weight="700">WASM · 0-UPLOAD</text>
+
+  <text x="20" y="76" fill="#F8FAFC" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="800">ExifStudio</text>
+  <text x="20" y="102" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12.5">EXIF &amp; C2PA Inspector, Camera</text>
+  <text x="20" y="120" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12.5">Shutter Count, GPS &amp; PDF Clean</text>
+
+  <text x="20" y="149" fill="#00F5D4" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="700">exifstudio.online →</text>
+</svg>
